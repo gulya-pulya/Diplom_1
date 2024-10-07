@@ -54,4 +54,11 @@ public class Burger {
         return receipt.toString();
     }
 
+    public List<Ingredient> getIngredients() {
+        return ingredients;
+    }
+
+    public Bun getBun() {
+        return bun;
+    }
 }
